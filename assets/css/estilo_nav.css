@@ -1,0 +1,22 @@
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+a:active, a:hover {
+    outline: 0;
+}
+.active-menu {
+    background-color: #79bdb8 !important;
+    /* border-left: 5px solid #256658; */
+    border-left: 5px solid #006a62;
+}

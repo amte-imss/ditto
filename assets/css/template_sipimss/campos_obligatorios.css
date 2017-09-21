@@ -1,0 +1,23 @@
+
+/**
+* 
+* @author LEAS
+* @fecha 17/05/2017
+* @description Agrega el color del asterisco en color rojo
+* 
+**/
+
+.button-padding {
+    padding-top: 30px
+}
+
+.rojo {
+    color: #a94442
+}
+.panel-body table{
+    color: #000
+} 
+.pinfo{
+    padding-left:20px; 
+    padding-bottom: 20px;
+}

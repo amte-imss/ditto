@@ -1,0 +1,20 @@
+
+/**
+* 
+* @author LEAS
+* @fecha 17/05/2017
+* @description Agrega el color del asterisco en color rojo
+* 
+**/
+
+tbody td .opcion {
+   padding: 2px;
+   color: #333;
+ 
+   font-weight: bold;
+}
+tbody td .opcion:hover {
+   padding: 2px;
+   color: #6a4d93;
+   font-weight: bold;
+}
