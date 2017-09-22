@@ -182,9 +182,10 @@ class Rama_organica extends MY_Controller {
     public function get_lista_rama()
     {
         $resultado = array();
-        $resultado['tipos_actividad'] = $this->catalogo->get_tipos_actividad(null,'nombre_tipo_actividad');
-        $resultado['modalidades'] = $this->catalogo->get_modalidades(null,'nombre_modalidad');
-        $resultado['areas_enfoque'] = $this->catalogo->get_areas_enfoque(null,'nombre_area_enfoque');
+        $filtro = array('activo'=>true);
+        $resultado['tipos_actividad'] = $this->catalogo->get_tipos_actividad($filtro,'nombre_tipo_actividad');
+        $resultado['modalidades'] = $this->catalogo->get_modalidades($filtro,'nombre_modalidad');
+        $resultado['areas_enfoque'] = $this->catalogo->get_areas_enfoque($filtro,'nombre_area_enfoque');
         $resultado['delegaciones'] = $this->catalogo->get_delegaciones();
         header('Content-Type: application/json; charset=utf-8;');
         echo json_encode($resultado);
@@ -203,12 +204,14 @@ class Rama_organica extends MY_Controller {
     public function get_info_cursos($area=null)
     {
         $resultado = array();
+        $filtros_activo = array('activo'=>true);
         $filtros = null;
         if(!is_null($area)){
+            $filtros_activo['id_area_enfoque'] = $area;
             $filtros['id_area_enfoque'] = $area;
         }
-        $resultado['tipos_curso'] = $this->catalogo->get_tipos_curso($filtros,'nombre_tipo_curso');
-        $resultado['cursos'] = $this->catalogo->get_cursos($filtros,'nombre_curso');
+        $resultado['tipos_curso'] = $this->catalogo->get_tipos_curso($filtros_activo,'nombre_tipo_curso');
+        $resultado['cursos'] = $this->catalogo->get_cursos($filtros_activo,'nombre_curso');
         $resultado['roles'] = $this->catalogo->get_rol_curso($filtros,'nombre_rol');
         header('Content-Type: application/json; charset=utf-8;');
         echo json_encode($resultado);

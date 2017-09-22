@@ -141,6 +141,9 @@ function grid_docente(area) {
 	var rol_edit_value = null;
 	var rol_add_value = null;
 
+	opciones_curso = [];
+	opciones_rol = [];
+
 	var grid = $('#jsGrid').jsGrid({
 		height: "800px",
 		width: "100%",

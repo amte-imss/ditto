@@ -448,6 +448,11 @@ class Catalogo_model extends MY_Model {
         $this->db->select($select);
         $this->db->join('catalogo.tipo_curso T','C.id_tipo_curso = T.id_tipo_curso','inner');
         if(!is_null($filtros)){
+            if(isset($filtros['activo'])){
+                $this->db->where('C.activo',$filtros['activo']);
+                $this->db->where('T.activo',$filtros['activo']);
+                unset($filtros['activo']);
+            }
             $this->db->where($filtros);
         }
         if(!is_null($order_by)){
