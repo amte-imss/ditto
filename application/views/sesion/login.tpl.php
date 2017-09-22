@@ -191,32 +191,50 @@
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                    <li data-target="#myCarousel" data-slide-to="8"></li>
+                    <li data-target="#myCarousel" data-slide-to="9"></li>
                   </ol>
 
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner">
                     <div class="item active">
-                      <img src="<?php echo asset_url(); ?>img/ditto/SIPIMSS_carrusel01.jpg" alt="Eleva tu reconocimiento profesional actualizando tu información personal, profesional, tus actividades docentes y de investigación en el IMSS">
-                      <div class="carousel-caption">
-                        <h3>Eleva tu reconocimiento profesional actualizando</h3>
-                        <p>tu información personal, profesional, tus actividades docentes y de investigación en el IMSS</p>
-                      </div>
-                    </div>
-
-                    <div class="item">
                       <img src="<?php echo asset_url(); ?>img/ditto/SIPIMSS_carrusel02.jpg" alt="Eleva tu reconocimiento profesional actualizando tu información personal, profesional, tus actividades docentes y de investigación en el IMSS">
-                      <div class="carousel-caption">
+                      <!-- <div class="carousel-caption">
                         <h3>Eleva tu reconocimiento profesional actualizando</h3>
                         <p>tu información personal, profesional, tus actividades docentes y de investigación en el IMSS</p>
-                      </div>
+                      </div> -->
                     </div>
-
                     <div class="item">
                       <img src="<?php echo asset_url(); ?>img/ditto/SIPIMSS_carrusel03.jpg" alt="Eleva tu reconocimiento profesional actualizando tu información personal, profesional, tus actividades docentes y de investigación en el IMSS">
-                      <div class="carousel-caption">
-                        <h3>Eleva tu reconocimiento profesional actualizando</h3>
-                        <p>tu información personal, profesional, tus actividades docentes y de investigación en el IMSS</p>
-                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="<?php echo asset_url(); ?>img/ditto/1.jpg" alt="Eleva tu reconocimiento profesional actualizando tu información personal, profesional, tus actividades docentes y de investigación en el IMSS">
+                    </div>
+                    <div class="item">
+                      <img src="<?php echo asset_url(); ?>img/ditto/2.jpg" alt="Eleva tu reconocimiento profesional actualizando tu información personal, profesional, tus actividades docentes y de investigación en el IMSS">
+                    </div>
+                    <div class="item">
+                      <img src="<?php echo asset_url(); ?>img/ditto/3.jpg" alt="Eleva tu reconocimiento profesional actualizando tu información personal, profesional, tus actividades docentes y de investigación en el IMSS">
+                    </div>
+                    <div class="item">
+                      <img src="<?php echo asset_url(); ?>img/ditto/4.jpg" alt="Eleva tu reconocimiento profesional actualizando tu información personal, profesional, tus actividades docentes y de investigación en el IMSS">
+                    </div>
+                    <div class="item">
+                      <img src="<?php echo asset_url(); ?>img/ditto/5.jpg" alt="Eleva tu reconocimiento profesional actualizando tu información personal, profesional, tus actividades docentes y de investigación en el IMSS">
+                    </div>
+                    <div class="item">
+                      <img src="<?php echo asset_url(); ?>img/ditto/6.jpg" alt="Eleva tu reconocimiento profesional actualizando tu información personal, profesional, tus actividades docentes y de investigación en el IMSS">
+                    </div>
+                    <div class="item">
+                      <img src="<?php echo asset_url(); ?>img/ditto/7.jpg" alt="Eleva tu reconocimiento profesional actualizando tu información personal, profesional, tus actividades docentes y de investigación en el IMSS">
+                    </div>
+                    <div class="item">
+                      <img src="<?php echo asset_url(); ?>img/ditto/8.jpg" alt="Eleva tu reconocimiento profesional actualizando tu información personal, profesional, tus actividades docentes y de investigación en el IMSS">
                     </div>
                   </div>
 
@@ -247,8 +265,8 @@
     <div class="clearfix"></div>
     <div class="col-md-14 text-justify">
         <div class="col-md-2"></div>
-        <div class="col-md-4"><h4>¿QUÉ ES?</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis ante sed tortor condimentum consectetur. </div>
-        <div class="col-md-4"><img class="img-responsive" src="<?php echo asset_url(); ?>img/ditto/SIPIMSS_carrusel03.jpg" alt="Eleva tu reconocimiento profesional actualizando tu información personal, profesional, tus actividades docentes y de investigación en el IMSS"></div>
+        <div class="col-md-4"><h4>¿QUÉ ES SIPIMSS?</h4>Es un Sistema de Información de Profesores del Instituto Mexicano del Seguro Social, que tiene como propósito, concentrar la información profesional actualizada y confiable del personal de salud con actividad docente en el IMSS, lo que nos permitirá realizar una mejor programación, toma de decisiones y evaluación.</div>
+        <div class="col-md-4"><img class="img-responsive" src="<?php echo asset_url(); ?>img/ditto/10.jpg" alt="Eleva tu reconocimiento profesional actualizando tu información personal, profesional, tus actividades docentes y de investigación en el IMSS"></div>
         <!-- <div class="col-md-2"><h4>TUTORIALES</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis ante sed tortor condimentum consectetur. </div>
         <div class="col-md-2"><img class="img-responsive" src="<?php echo asset_url(); ?>img/ditto/SIPIMSS_carrusel03.jpg" alt="Eleva tu reconocimiento profesional actualizando tu información personal, profesional, tus actividades docentes y de investigación en el IMSS"></div> -->
         <div class="col-md-2"></div>
