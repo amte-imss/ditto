@@ -80,7 +80,14 @@ $db['default'] = array(
     'hostname' => 'localhost',
     'username' => 'innovaedu',
     'password' => 'innovaedu',
-    'database' => 'ditto',     
+    'database' => 'ditto',
+    /*
+    'dsn' => 'pgsql:host=localhost;dbname=ditto_2109',
+    'hostname' => 'localhost',
+    'username' => 'clapas_imss',
+    'password' => 'logan',
+    'database' => 'ditto_2109',
+    */
     'dbdriver' => 'pdo',
     'port' => '5432',
     'dbprefix' => '',
